@@ -27,8 +27,18 @@ On disposera d'un repository contenant l'architecture suivante :
 
 ![image](https://user-images.githubusercontent.com/66318278/170127893-224eba97-c9f2-494b-9931-ac7bf641c3d9.png)
 - Dockerfile (server)
-- 
+
 ![image](https://user-images.githubusercontent.com/66318278/170127970-8809099a-85cf-4b64-94f4-d05ba1611bcf.png)
 - Index.html
 
 ![image](https://user-images.githubusercontent.com/66318278/170128275-cb3035f6-f0d7-458e-a62e-b75114b15d84.png)
+- Firewall.sh qui permettra d'initier les règles iprouting et iptables:
+
+![image](https://user-images.githubusercontent.com/66318278/170128982-39cb1b70-a13c-401a-aff4-cce68a05da98.png)
+- Dockerfile (firewall) contenant :
+ ![image](https://user-images.githubusercontent.com/66318278/170129261-5302c41a-e0f8-4a93-8366-5d8baae3788a.png)
+ # Mise en place de l'infrastructure et construction du dockercompose 
+ J'ai éxécuté la commande docker-compose build pour construire mon docker-compose, mais j'ai une erreur qui s'affiche en m'indiquant que le compose n'est pas reconnue et le service ssh ne marche pas.
+ # Pour lancer le docker-compose dans le cas où il a été fonctionnel, on lance la commande docker_compose up qui va permettre de lancer les 3 containers : Serveur, Client et Firewall
+ Le serveur pourra donc lancer la page index.html pour le client.
+ 
