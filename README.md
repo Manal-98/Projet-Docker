@@ -11,7 +11,9 @@ Ensuite on installe et on vérifie que le docker fonction correctement:
 ![image](https://user-images.githubusercontent.com/66318278/170121369-5e51a985-e377-41c8-91ff-f7d6d9969651.png)
 # Architecture des fichiers : 
 On disposera d'un repository contenant l'architecture suivante :
-![image](https://user-images.githubusercontent.com/66318278/170124358-69e3a40c-992d-497d-b02b-3811754092b9.png)
-![image](https://user-images.githubusercontent.com/66318278/170124463-010eac9c-d9d4-4897-bb76-b9cf59b975b3.png)
-![image](https://user-images.githubusercontent.com/66318278/170124506-86bbc0b9-c32a-4a78-9e31-ae3580692910.png)
-
+- docker-compose.yml
+- dossier client : client.py (il va renvoyer une requete au serveur pour récupérer les informations de la page web ) - Dockerfile 
+- dossier server : server.py (reçoit l'information du client et lancera le serveur web) - Dockerfile- index.html
+- dossier parefeur : clean.sh (initialise toutes les configurations iptables) - Dockerfile- firewall.sh 
+# Composition des fichiers :
+  - Docker-compose.yml 
