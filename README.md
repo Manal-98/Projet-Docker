@@ -17,3 +17,14 @@ On disposera d'un repository contenant l'architecture suivante :
 - dossier parefeur : clean.sh (initialise toutes les configurations iptables) - Dockerfile- firewall.sh 
 # Composition des fichiers :
   - Docker-compose.yml 
+ ![image](https://user-images.githubusercontent.com/66318278/170126786-f854dd1e-61e6-4b7b-af82-feb03075b403.png)
+- Client.py
+![image](https://user-images.githubusercontent.com/66318278/170127296-75800181-ad6b-4425-840b-329a0f24dadf.png)
+- Dockerfile (client)
+![image](https://user-images.githubusercontent.com/66318278/170127423-8ea9171d-fba2-4083-9919-555e31d4aba9.png)
+- Server.py
+![image](https://user-images.githubusercontent.com/66318278/170127893-224eba97-c9f2-494b-9931-ac7bf641c3d9.png)
+- Dockerfile (server)
+![image](https://user-images.githubusercontent.com/66318278/170127970-8809099a-85cf-4b64-94f4-d05ba1611bcf.png)
+- Index.html
+![image](https://user-images.githubusercontent.com/66318278/170128275-cb3035f6-f0d7-458e-a62e-b75114b15d84.png)
